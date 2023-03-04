@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> 
+        <title>New page</title>         
+        <script src="https://cdn.tailwindcss.com/"></script>         
+        <link href="style1.css" rel="stylesheet" type="text/css"/>
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+    </head>     
+    <body> 
+        <header class="bg-white inset-x-0 shadow sticky top-0 z-30" data-pgc-save-partial="AppBar.html"> 
+            <nav class="container flex flex-wrap items-center mx-auto"> 
+                <button class="px-4 py-4 rounded text-blue-600" aria-label="search"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="h-8 w-8">
+                        <g>
+                            <path fill="none" d="M0 0h24v24H0z"/>
+                            <path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+                        </g>
+                    </svg>                     
+                </button><a href="#" class="font-medium hover:text-blue-800 mx-auto text-blue-600 text-xl uppercase">                 Company </a> 
+                <button class="px-4 py-4 rounded text-blue-600" aria-label="search"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="h-8 w-8">
+                        <g>
+                            <path fill="none" d="M0 0h24v24H0z"/>
+                            <path d="M9.954 2.21a9.99 9.99 0 0 1 4.091-.002A3.993 3.993 0 0 0 16 5.07a3.993 3.993 0 0 0 3.457.261A9.99 9.99 0 0 1 21.5 8.876 3.993 3.993 0 0 0 20 12c0 1.264.586 2.391 1.502 3.124a10.043 10.043 0 0 1-2.046 3.543 3.993 3.993 0 0 0-3.456.261 3.993 3.993 0 0 0-1.954 2.86 9.99 9.99 0 0 1-4.091.004A3.993 3.993 0 0 0 8 18.927a3.993 3.993 0 0 0-3.457-.26A9.99 9.99 0 0 1 2.5 15.121 3.993 3.993 0 0 0 4 11.999a3.993 3.993 0 0 0-1.502-3.124 10.043 10.043 0 0 1 2.046-3.543A3.993 3.993 0 0 0 8 5.071a3.993 3.993 0 0 0 1.954-2.86zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </g>
+                    </svg>                     
+                </button>                 
+            </nav>             
+        </header>
+        <article class="content-grid overflow-hidden">
+            <section class="content overflow-x-hidden px-4 relative" data-pg-name="Content">
+                <article class="mt-8 py-8" data-pg-name="StatusBar" data-pgc-save-partial="StatusBar.html">
+                    <div class="gap-2 grid grid-cols-2 p-2">
+                        <nav class="flex flex-col p-3 rounded-lg shadow">
+                            <header class="flex mb-1"><span class="mr-2 text-4xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+                                        <g>
+                                            <path fill="none" d="M0 0h24v24H0z"/>
+                                            <path d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976zM12 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm-4.473 5h8.946a4.5 4.5 0 0 0-8.946 0z"/>
+                                        </g>
+                                    </svg></span>
+                                <h2 class="text-4xl">Knight</h2>
+                            </header>
+                            <div class="px-2">
+                                <h4 class="text-2xl">Player</h4>
+                            </div>
+                            <div class="px-2 py-4">
+                                <progress max="100" value="70" class="w-full"></progress>
+                            </div>
+                        </nav>
+                        <nav class="flex flex-col p-3 rounded-lg shadow">
+                            <header class="flex mb-1"><span class="mr-2 text-4xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+                                        <g>
+                                            <path fill="none" d="M0 0h24v24H0z"/>
+                                            <path d="M17.084 15.812a7 7 0 1 0-10.168 0A5.996 5.996 0 0 1 12 13a5.996 5.996 0 0 1 5.084 2.812zM12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 12a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                        </g>
+                                    </svg></span>
+                                <h2 class="text-4xl">Goblin</h2>
+                            </header>
+                            <div class="px-2">
+                                <h4 class="text-2xl">Enemy</h4>
+                            </div>
+                            <div class="px-2 py-4">
+                                <progress max="100" value="55" class="w-full"></progress>
+                            </div>
+                        </nav>
+                    </div>
+                </article>
+                <article class="py-8" data-pg-name="ActionBar" data-pgc-save-partial="ActionBar.html">
+                    <div class="gap-2 grid grid-cols-3 p-2">
+                        <button class="active: active:text-white bg-blue-500 bg-blue-600 duration-200 ease-linear focus:outline-none font-medium mb-1 mr-1 outline-none px-6 py-3 rounded shadow shadow-lg text-base text-gray-50 transition-all">ShieldBash</button>
+                        <button class="active: active:text-white bg-blue-500 bg-blue-600 duration-200 ease-linear focus:outline-none font-medium mb-1 mr-1 outline-none px-6 py-3 rounded shadow shadow-lg text-base text-gray-50 transition-all">Mace Attack</button>
+                        <button class="active: active:text-white bg-blue-500 bg-blue-600 duration-200 ease-linear focus:outline-none font-medium mb-1 mr-1 outline-none px-6 py-3 rounded shadow shadow-lg text-base text-gray-50 transition-all">Magic Attac</button>
+                    </div>
+                </article>
+            </section>
+            <aside class="aside bg-gray-50 bg-opacity-50 overflow-x-hidden relative rounded-l" data-pgc-save-partial="Aside.html"> 
+                <div id="log" class="flex flex-col h-full p-2 space-y-2 w-full"> 
+                    <p class="bg-blue-200 border end mt-auto px-2 py-1 rounded">⌛ Turn 1</p> 
+                    <p class="bg-white border px-2 py-1 rounded welcome">🏟️ Welcome to the Arena</p> 
+                </div>                 
+            </aside>
+        </article>
+    </body>     
+</html>

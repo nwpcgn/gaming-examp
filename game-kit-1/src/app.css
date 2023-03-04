@@ -1,0 +1,107 @@
+:root {
+	--app-bg: #ffffff;
+	--app-color: #4a4a4a;
+}
+
+body {
+	position: relative;
+	max-width: 100vw;
+	min-height: 100vh;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+body>main {
+	flex: 1;
+	position: relative;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-center {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.nwp {
+	@apply text-slate-700;
+}
+
+.nwp h1 {
+	@apply text-6xl;
+}
+
+.nwp h2 {
+	@apply text-5xl;
+}
+
+.nwp h3 {
+	@apply text-4xl;
+}
+
+.nwp h4 {
+	@apply text-3xl;
+}
+
+.nwp h5 {
+	@apply text-2xl;
+}
+
+.nwp h6 {
+	@apply text-xl;
+}
+
+.nwp p {
+	@apply text-base;
+}
+
+.nwp p.lead {
+	@apply text-lg font-medium mb-1;
+}
+.nwp p.small {
+	@apply text-sm font-light;
+}
+.nwp h1,
+.nwp h2,
+.nwp h3 {
+	@apply mb-2;
+}
+
+.nwp h4,
+.nwp h5,
+.nwp h6 {
+	@apply mb-1;
+}
+.nwp h1 {
+	@apply font-semibold;
+}
+.nwp h2,
+.nwp h4 {
+	@apply font-medium;
+}
+.nwp h1 {
+	@apply text-slate-800;
+}
+.nwp h3,
+.nwp h5 {
+	@apply text-slate-500;
+}
